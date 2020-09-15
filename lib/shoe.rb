@@ -15,7 +15,7 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    BRANDS << brand if brand.unique?
+    BRANDS << brand if brand.uniq?
   end
 
 end
